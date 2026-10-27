@@ -1,0 +1,16 @@
+import turtle
+
+t = turtle.Turtle()
+t.color("red")
+t.begin_fill()
+
+for _ in range(6):
+    t.forward(100)
+    t.right(120)
+    t.forward(100)
+    t.left(60)
+
+t.end_fill()
+t.hideturtle()
+turtle.done()
+input("按回车键退出...")
